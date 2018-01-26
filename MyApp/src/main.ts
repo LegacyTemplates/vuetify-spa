@@ -17,8 +17,8 @@ import View2 from './view2/View2.vue';
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/view1', component: View1, props: { message: "This is View 1" } },
-  { path: '/view2', component: View2 },
+  { path: '/view1', component: View1 },
+  { path: '/view2', component: View2, props: { message: "This is View 2" } },
   { path: '*', redirect: '/' },
 ];
 

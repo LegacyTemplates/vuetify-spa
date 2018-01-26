@@ -22,7 +22,7 @@ import { Component, Prop } from 'vue-property-decorator';
 
 @Component
 export default class View1Component extends Vue {
-    @Prop() message: string; // populated by route properties
+    message = "This is View 1"
 }
 </script>
 

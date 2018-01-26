@@ -1,7 +1,12 @@
 ﻿import { expect } from 'chai';
 import Vue from 'vue';
+import { shallow } from '@vue/test-utils'
 
 import Home from './Home.vue';
+
+shallow(Home, {
+  stubs: ['router-link', 'router-view']
+})
 
 const ctor = (propsData = null) => new Home({ propsData }).$mount() as Home;
 

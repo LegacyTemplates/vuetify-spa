@@ -22,6 +22,6 @@ import { Component, Prop } from 'vue-property-decorator';
 
 @Component
 export default class View1Component extends Vue {
-    message = "This is View 2"
+    @Prop() message: string; // populated by route properties
 }
 </script>
