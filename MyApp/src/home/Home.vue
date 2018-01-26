@@ -2,7 +2,7 @@
     <v-flex class="white">
         <v-toolbar color="blue">
             <v-toolbar-side-icon></v-toolbar-side-icon>
-            <v-toolbar-title class="white--text">My App</v-toolbar-title>
+            <v-toolbar-title class="white--text">MyApp</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon>
                 <v-icon>search</v-icon>
