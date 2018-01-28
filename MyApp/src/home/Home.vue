@@ -30,7 +30,7 @@
                         ></v-text-field>
                     </v-form>
 
-                    <h3 class="result">{{result}}</h3>
+                    <h2 class="result">{{result}}</h2>
                 </div>                  
             </v-card-title>
             <v-card-actions style="justify-content:center">

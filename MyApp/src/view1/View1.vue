@@ -4,7 +4,7 @@
             <v-card-media :src="require('../assets/img/desert.jpg')" height="200px"></v-card-media>
             <v-card-title primary-title style="justify-content:center">
                 <div>
-                    <h3>{{message}}</h3>
+                    <h2>{{message}}</h2>
                 </div>                  
             </v-card-title>
             <v-card-actions style="justify-content:center">
@@ -29,7 +29,7 @@ export default class View1Component extends Vue {
 <style lang="scss">
 @import '../app.scss';
 
-#view1 h3 {
+#view1 h2 {
     color: darken($navbar-background, 10%);
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }

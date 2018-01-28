@@ -21,12 +21,12 @@ describe('Home.vue', () => {
         const vm = ctor({ name: 'Vue' });
         expect(vm.name).eq('Vue');
         expect(vm.$el.querySelector('input').type).eq('text');
-        expect(vm.$el.querySelector('h3.result').textContent).eq('');
+        expect(vm.$el.querySelector('h2.result').textContent).eq('');
 
         vm.result = "Bye Vue";
 
         Vue.nextTick(() => {
-            expect(vm.$el.querySelector('h3.result').textContent).eq('Bye Vue');
+            expect(vm.$el.querySelector('h2.result').textContent).eq('Bye Vue');
             done();
         });
     })

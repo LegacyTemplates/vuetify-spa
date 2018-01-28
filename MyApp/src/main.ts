@@ -1,7 +1,5 @@
 /// <reference path="shared.d.ts" />
 
-import 'bootstrap/dist/css/bootstrap.css';
-import "font-awesome/css/font-awesome.css";
 import './app.scss';
 import 'es6-shim';
 import 'vuetify/dist/vuetify.css'

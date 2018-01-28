@@ -1,8 +1,7 @@
 "use strict";
 
 const VENDOR = [
-    'bootstrap/dist/css/bootstrap.css',
-    'font-awesome/css/font-awesome.css',
+    'vuetify/dist/vuetify.css',
     'es6-shim',
     '@servicestack/client',
     'vue',
