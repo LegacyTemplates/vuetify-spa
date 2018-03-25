@@ -11,7 +11,8 @@ for (var k in config.karma.globals) {
 }
 
 Vue.use(Vuetify);
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.config.ignoredElements = ['router-link'];
 
 // require all test files (files that ends with .spec.ts)
 var testsContext = require.context('./src', true, /\.spec\.ts/);
