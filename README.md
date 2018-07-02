@@ -1,6 +1,6 @@
 # vuetify-spa
 
-.NET Core 2.0 Vuetify Webpack App Template
+.NET Core 2.1 Vuetify Webpack App Template
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vuetify-spa.png)](http://vuetify-spa.web-templates.io/)
 
