@@ -10,3 +10,6 @@ body {
 a {
     color: $emphasis-text-color;
 }
+a:hover {
+    text-decoration: none;
+}

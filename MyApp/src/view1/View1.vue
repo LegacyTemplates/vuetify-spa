@@ -22,14 +22,14 @@ import { Component, Prop } from 'vue-property-decorator';
 
 @Component
 export default class View1Component extends Vue {
-    message = "This is View 1"
+    @Prop({ default: 'This is View 1' }) public message: string;
 }
 </script>
 
 <style lang="scss">
 @import '../app.scss';
 
-#view1 h2 {
+#view1 h3 {
     color: darken($navbar-background, 10%);
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }

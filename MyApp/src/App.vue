@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <v-app>
     <v-navigation-drawer
       fixed
@@ -32,9 +32,6 @@
       <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>web</v-icon>
       </v-btn>
-      <v-btn icon @click.stop="fixed = !fixed">
-        <v-icon>remove</v-icon>
-      </v-btn>
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
 
@@ -57,12 +54,11 @@
       </v-container>
     </v-content>
     <v-footer :fixed="fixed" app style="justify-content:center">
-      <div style="text-align:center;margin:10px;">
+      <div style="text-align:center;margin:10px">
         <div>
             <img src="./assets/img/logo.svg" height="32" style="vertical-align:middle;margin-right:5px;" />
             <a href="https://servicestack.net/vs-templates/vuetify-spa">Learn about this Vuetify VS.NET template</a>
         </div>
-        <div>Copyright &copy; 2018</div>        
       </div>
     </v-footer>
   </v-app>
@@ -74,17 +70,17 @@ import { Component } from 'vue-property-decorator';
 
 @Component
 export default class AppComponent extends Vue {
-    clipped = false
-    drawer = true
-    fixed = false
-    items = [
+    public clipped = false;
+    public drawer = true;
+    public fixed = false;
+    public items = [
       { icon: 'home', title: 'Home', to: '/' },
       { icon: 'bubble_chart', title: 'View 1', to: '/view1' },
-      { icon: 'contacts', title: 'View 1', to: '/view2' }
-    ]
-    miniVariant = true
-    right = true
-    title = "MyApp"
-    name = ""
+      { icon: 'contacts', title: 'View 1', to: '/view2' },
+    ];
+    public miniVariant = true;
+    public right = true;
+    public title = 'MyApp';
+    public name = '';
 }
 </script>

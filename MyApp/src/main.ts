@@ -1,22 +1,21 @@
-/// <reference path="shared.d.ts" />
-
+import '@babel/polyfill';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.css';
 import './app.scss';
 import 'es6-shim';
-import 'vuetify/dist/vuetify.css'
 
 import Vue from 'vue';
+import './plugins/vuetify';
 import Router from 'vue-router';
-import Vuetify from 'vuetify';
-
 import App from './App.vue';
 import Home from './home/Home.vue';
 import View1 from './view1/View1.vue';
 import View2 from './view2/View2.vue';
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: Home, props: { name: 'Vue' } },
   { path: '/view1', component: View1 },
-  { path: '/view2', component: View2, props: { message: "This is View 2" } },
+  { path: '/view2', component: View2 },
   { path: '*', redirect: '/' },
 ];
 
@@ -26,10 +25,9 @@ const router = new Router ({
     routes,
 });
 
-Vue.use(Vuetify);
 Vue.use(Router);
 const app = new Vue({
     el: '#app',
-    render: h => h(App),
+    render: (h) => h(App),
     router,
 });
