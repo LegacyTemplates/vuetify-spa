@@ -6,9 +6,9 @@
 
 > Browse [source code](https://github.com/NetCoreTemplates/vuetify-spa), view live demo [vuetify-spa.web-templates.io](http://vuetify-spa.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ npm install -g @servicestack/cli
+    $ dotnet tool install -g web
 
-    $ dotnet-new vuetify-spa ProjectName
+    $ web new vuetify-spa ProjectName
 
 ## Development workflow
 
