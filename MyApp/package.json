@@ -15,33 +15,32 @@
     "e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
-    "@servicestack/client": "^1.0.15",
-    "bootstrap": "^4.2.1",
-    "es6-shim": "^0.35.4",
+    "@servicestack/client": "^1.0.20",
+    "es6-shim": "^0.35.5",
     "font-awesome": "^4.7.0",
-    "vue": "^2.5.22",
-    "vue-class-component": "^6.3.2",
-    "vue-property-decorator": "^7.3.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.1",
+    "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.2",
-    "vuetify": "^1.4.2"
+    "vuetify": "^1.5.7"
   },
   "devDependencies": {
-    "@babel/polyfill": "^7.2.5",
-    "@types/jest": "^23.3.13",
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-e2e-cypress": "^3.3.0",
-    "@vue/cli-plugin-typescript": "^3.3.0",
-    "@vue/cli-plugin-unit-jest": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
-    "@vue/test-utils": "^1.0.0-beta.28",
-    "babel-core": "7.0.0-bridge.0",
+    "@babel/polyfill": "^7.4.0",
+    "@types/jest": "^24.0.11",
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-plugin-e2e-cypress": "^3.5.1",
+    "@vue/cli-plugin-typescript": "^3.5.1",
+    "@vue/cli-plugin-unit-jest": "^3.5.1",
+    "@vue/cli-service": "^3.5.1",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^6.26.3",
     "gulp": "^4.0.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.0.1",
-    "ts-jest": "^23.10.5",
-    "typescript": "^3.2.4",
-    "vue-cli-plugin-vuetify": "^0.4.6",
-    "vue-template-compiler": "^2.5.22"
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.4000",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
     "plugins": {
