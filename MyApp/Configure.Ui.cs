@@ -10,10 +10,13 @@ namespace MyApp
     {
         public void Configure(IAppHost appHost)
         {
-            var svgDir = appHost.RootDirectory.GetDirectory("/svg");
-            if (svgDir == null)
-                throw new Exception($"/wwwroot/svg does not exist, build Client App with 'npm run build'");
-            Svg.Load(svgDir);
+            // if wwwroot/ is empty, build Client App with 'npm run build'
+            var svgDir = appHost.RootDirectory.GetDirectory("/svg") ?? appHost.ContentRootDirectory.GetDirectory("/public/svg"); 
+            if (svgDir != null)
+            {
+                Svg.Load(svgDir);
+            }
         }
     }
 }
+
