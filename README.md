@@ -4,7 +4,7 @@
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vuetify-spa.png)](http://vuetify-spa.web-templates.io/)
 
-> Browse [source code](https://github.com/NetCoreTemplates/vuetify-spa), view live demo [vuetify-spa.web-templates.io](http://vuetify-spa.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
+> Browse [source code](https://github.com/NetCoreTemplates/vuetify-spa), view live demo [vuetify-spa.web-templates.io](http://vuetify-spa.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
 
     $ dotnet tool install -g x
 
