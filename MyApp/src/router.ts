@@ -8,7 +8,7 @@ import View2 from './view2/View2.vue';
 Vue.use(Router);
 
 const routes = [
-  { path: '/', component: Home, props: { name: 'Vue' } },
+  { path: '/', component: Home, props: { name: 'Vuetify' } },
   { path: '/view1', component: View1 },
   { path: '/view2', component: View2 },
   { path: '*', redirect: '/' },

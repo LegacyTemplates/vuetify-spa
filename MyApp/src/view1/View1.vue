@@ -1,16 +1,17 @@
 <template>
     <v-flex id="view1">
         <v-card>
-            <v-card-media :src="require('../assets/img/desert.jpg')" height="200px"></v-card-media>
-            <v-card-title primary-title style="justify-content:center">
-                <div>
-                    <h2>{{message}}</h2>
-                </div>                  
-            </v-card-title>
+            <v-img
+                class="white--text align-end"
+                height="200px"
+                :src="require('../assets/img/desert.jpg')"
+                >
+                <v-card-title>{{message}}</v-card-title>
+            </v-img>
             <v-card-actions style="justify-content:center">
-                <v-btn flat color="orange" to="/" exact>Home</v-btn>
-                <v-btn flat color="orange" to="/view1">View 1</v-btn>
-                <v-btn flat color="orange" to="/view2">View 2</v-btn>
+                <v-btn text color="orange" to="/" exact>Home</v-btn>
+                <v-btn text color="orange" to="/view1">View 1</v-btn>
+                <v-btn text color="orange" to="/view2">View 2</v-btn>
             </v-card-actions>
         </v-card>
     </v-flex>

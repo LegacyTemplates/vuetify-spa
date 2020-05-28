@@ -4,13 +4,14 @@ import './app.scss';
 import 'es6-shim';
 
 import Vue from 'vue';
-import './plugins/vuetify';
 import App from './App.vue';
+import vuetify from './plugins/vuetify';
 
 import router from './router';
 
 const app = new Vue({
     el: '#app',
-    render: (h) => h(App),
+    render: (h: any) => h(App),
     router,
-});
+    vuetify,
+} as any);
