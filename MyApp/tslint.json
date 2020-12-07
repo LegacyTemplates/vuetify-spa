@@ -9,6 +9,10 @@
     ]
   },
   "rules": {
+    "variable-name": [
+      true,
+      "allow-snake-case"
+    ],    
     "quotemark": [true, "single"],
     "indent": [true, "spaces", 2],
     "interface-name": false,
@@ -16,6 +20,7 @@
     "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
     "no-trailing-whitespace": [true, "ignore-comments"],
+    "no-empty-interface": false,
     "one-line": false,
     "max-classes-per-file": false
   }

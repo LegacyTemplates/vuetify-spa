@@ -82,8 +82,12 @@ import { Hello } from '../dtos';
 @Component
 export default class HomeComponent extends Vue {
     @Prop() public name: string;
-    public txtName: string = this.name;
+    public txtName: string = '';
     public result: string = '';
+
+    public mounted() {
+      this.txtName = this.name;
+    }
 
     public activated() {
         this.nameChanged(this.name);

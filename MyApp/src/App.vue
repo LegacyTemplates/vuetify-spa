@@ -47,7 +47,7 @@
       </v-toolbar-items>
     </v-app-bar>
     
-    <v-content>
+    <v-main>
       <v-container fluid>
         <v-slide-y-transition mode="out-in">
           <v-layout column align-center>
@@ -55,7 +55,8 @@
           </v-layout>
         </v-slide-y-transition>
       </v-container>
-    </v-content>
+    </v-main>
+    
     <v-footer :fixed="fixed" class="d-flex justify-center">
       <div style="margin:10px">
         <div>
