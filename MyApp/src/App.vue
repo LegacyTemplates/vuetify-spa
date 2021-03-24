@@ -60,7 +60,7 @@
     <v-footer :fixed="fixed" class="d-flex justify-center">
       <div style="margin:10px">
         <div>
-          <img src="/metadata/svg/logo.svg?fill=%23212529" height="32" style="vertical-align:middle;margin-right:5px;" />
+          <img src="/svg/svg-icons/logo.svg?fill=%23212529" height="32" style="vertical-align:middle;margin-right:5px;" />
           <a href="https://servicestack.net/vs-templates/vuetify-spa">Learn about this Vuetify VS.NET template</a>
         </div>
       </div>
