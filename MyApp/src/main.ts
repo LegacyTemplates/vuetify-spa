@@ -1,7 +1,6 @@
-import '@babel/polyfill';
+import "core-js";
 import 'font-awesome/css/font-awesome.css';
 import './app.scss';
-import 'es6-shim';
 
 import Vue from 'vue';
 import App from './App.vue';

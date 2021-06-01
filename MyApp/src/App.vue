@@ -76,7 +76,7 @@ import { Component } from 'vue-property-decorator';
 @Component
 export default class AppComponent extends Vue {
     public clipped = false;
-    public drawer = true;
+    public drawer = false;
     public fixed = false;
     public items = [
       { icon: 'home', title: 'Home', to: '/' },

@@ -6,7 +6,7 @@
                 height="200px"
                 :src="require('../assets/img/desert.jpg')"
                 >
-                <v-card-title>{{message}}</v-card-title>
+                <v-card-title class="title">{{message}}</v-card-title>
             </v-img>
             <v-card-actions style="justify-content:center">
                 <v-btn text color="orange" to="/" exact>Home</v-btn>

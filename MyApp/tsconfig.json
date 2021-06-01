@@ -9,20 +9,24 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
       "node",
-      "jest"
+      "jest",
+      "webpack-env"
     ],
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
+    "typeRoots": ["./types", "./node_modules/@types"],
     "lib": [
-      "es2015",
+      "esnext",
       "dom",
       "dom.iterable",
       "scripthost"
