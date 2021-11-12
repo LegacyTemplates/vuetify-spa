@@ -1,6 +1,6 @@
 # vuetify-spa
 
-.NET 5.0 Vuetify Webpack App Template
+.NET 6.0 Vuetify Webpack App Template
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vuetify-spa.png)](http://vuetify-spa.web-templates.io/)
 
