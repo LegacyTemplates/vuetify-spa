@@ -11,6 +11,7 @@ COPY . .
 RUN dotnet restore
 
 WORKDIR /app/MyApp
+RUN npm install && npm run build
 RUN dotnet publish -c release -o /out --no-restore
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-focal AS runtime
