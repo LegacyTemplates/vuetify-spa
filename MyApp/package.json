@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@mdi/font": "^5.9.55",
-    "@servicestack/client": "^1.1.15",
+    "@servicestack/client": "^1.1.17",
     "core-js": "^3.13.1",
     "font-awesome": "^4.7.0",
     "vue": "^2.6.12",
