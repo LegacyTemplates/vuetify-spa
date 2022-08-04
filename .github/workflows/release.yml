@@ -118,11 +118,6 @@ jobs:
           source: ".deploy/${{ github.event.repository.name }}-docker-compose.yml"
           target: "~/"
 
-      - name: Set the value
-        run: |
-          echo "GH_TOKEN=${{ secrets.CR_PAT }}" >> $GITHUB_ENV
-          echo "USERNAME=${{ secrets.DEPLOY_USERNAME }}" >> $GITHUB_ENV
-
       # Deploy Docker image with ServiceStack application using `docker compose up` remotely
       - name: remote docker-compose up via ssh
         uses: appleboy/ssh-action@v0.1.4
