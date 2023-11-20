@@ -4,17 +4,17 @@
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vuetify-spa.png)](http://vuetify-spa.web-templates.io/)
 
-> Browse [source code](https://github.com/NetCoreTemplates/vuetify-spa), view live demo [vuetify-spa.web-templates.io](http://vuetify-spa.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
+> Browse [source code](https://github.com/LegacyTemplates/vuetify-spa), view live demo [vuetify-spa.web-templates.io](http://vuetify-spa.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
 
     $ dotnet tool install -g x
 
-    $ x new vuetify-spa ProjectName
+    $ x new LegacyTemplates/vuetify-spa ProjectName
 
 Alternatively write new project files directly into an empty repository, using the Directory Name as the ProjectName:
 
     $ git clone https://github.com/<User>/<ProjectName>.git
     $ cd <ProjectName>
-    $ x new vuetify-spa
+    $ x new LegacyTemplates/vuetify-spa
 
 ## Development workflow
 
